@@ -20,7 +20,7 @@
       <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
     </a>
     <div id="wrapper" style="position:relative;top:40%;-webkit-transform:translateY(-40%);-ms-transform:translateY(-40%);transform:translateY(-40%)">
-      <h1 style="font-size:2rem;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,0.5);font-family:'Lato', sans-serif;margin:0;paddding:0">This is a sample application with PHP with a task scheduler</h1>
+      <h1 style="font-size:2rem;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,0.5);font-family:'Lato', sans-serif;margin:0;paddding:0">This is a sample application written in PHP with a task scheduler</h1>
       <br>
       <p style="font-size:2rem;">CRON task has been started
         <?php
