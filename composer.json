@@ -1,0 +1,12 @@
+{
+    "name": "scalingo/sample-php-cron",
+    "require": {
+        "cron/cron": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Leo Unbekandt",
+            "email": "leo@scalingo.com"
+        }
+    ]
+}
