@@ -13,6 +13,8 @@
   $cron->setExecutor(new \Cron\Executor\Executor());
   $cron->setResolver($resolver);
 
+  // Every 60 seconds, run the scheduler which will execute the tasks
+  // which have to be started at the given minute.
   while(true) {
     $report = $cron->run();
     while ($cron->isRunning()) { }
