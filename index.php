@@ -82,7 +82,7 @@
       <div class="love">
         <img class="scalingo-logo" alt="Scalingo" src="https://scalingo.com/logo-lightgrey.svg">
         <img class="heart-logo" alt="love" src="https://cdn.scalingo.com/documentation/heart.png">
-        <img class="tech-logo" alt="PHP" src="https://cdn.scalingo.com/homepage/assets/technologies/svg/ruby-85779959327de14f801ee56cd5615036.svg">
+        <img class="tech-logo" alt="PHP" src="https://cdn.scalingo.com/homepage/assets/technologies/svg/php-2d71f5f01eca45da137e01d2b6cb337d56becb8d89be6076bbe821ff75431cee.svg">
       </div>
       <h1>Greetings from a sample PHP app <br/> built with a task scheduler!</h1>
       <h2>
