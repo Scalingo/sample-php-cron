@@ -5,8 +5,15 @@
     },
     "authors": [
         {
-            "name": "Leo Unbekandt",
+            "name": "Léo Unbekandt",
             "email": "leo@scalingo.com"
         }
-    ]
+    ],
+    "extra": {
+      "paas": {
+        "engines": {
+          "php": "7.2.3"
+        }
+      }
+    }
 }
