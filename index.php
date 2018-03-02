@@ -86,7 +86,7 @@
       </div>
       <h1>Greetings from a sample PHP app <br/> built with a task scheduler!</h1>
       <h2>
-        Cron task has been started <?php echo $counter+"" ?> times
+        Cron task has been started <?php echo $counter ?> times.
       </h2>
       <h2>
         <span style="display:block;"><span class="one-liner">Deploying your own PHP/cron app on Scalingo</span> is as easy as pie:</span>

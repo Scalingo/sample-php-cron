@@ -1,7 +1,7 @@
 version: '3'
 services:
   sample-php-cron:
-    image: php:7.2-apache
+    build: .
     ports:
       - 3000:80
     volumes:
@@ -9,7 +9,7 @@ services:
     environment:
       REDIS_URL: redis://redis:6379/
   clock:
-    image: php:7.2-apache
+    build: .
     volumes:
       - .:/var/www/html
     environment:
