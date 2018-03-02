@@ -1,0 +1,21 @@
+version: '3'
+services:
+  sample-php-cron:
+    image: php:7.2-apache
+    ports:
+      - 3000:80
+    volumes:
+      - .:/var/www/html
+    environment:
+      REDIS_URL: redis://redis:6379/
+  cron:
+    image: php:7.2-apache
+    volumes:
+      - .:/var/www/html
+    environment:
+      REDIS_URL: redis://redis:6379/
+    command: "php cron.php"
+  redis:
+    image: redis
+    ports:
+      - 6379:6379

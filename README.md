@@ -1,12 +1,10 @@
-Sample application using PHP and a task scheduler
-=================================================
+# Sample application using PHP and a task scheduler
 
 This application is a simple PHP application using the package `cron/cron` installed from Composer
 
 Application → https://sample-php-cron.scalingo.io/
 
-Processes
----------
+## Processes
 
 One additional type of process will be created from the `Procfile` which defines how to start
 the task scheduler:
