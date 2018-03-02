@@ -13,6 +13,20 @@ the task scheduler:
 clock: php cron.php
 ```
 
+## Running locally
+
+First install the dependencies:
+
+```sh
+$ docker run --rm -it --volume $(pwd):/app --user $(id -u):$(id -g) composer install
+```
+
+Then run the needed containers:
+
+```sh
+$ docker-compose up
+```
+
 ### References
 
 * Composer: http://getcomposer.org/
