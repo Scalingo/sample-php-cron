@@ -86,6 +86,9 @@
       </div>
       <h1>Greetings from a sample PHP app <br/> built with a task scheduler!</h1>
       <h2>
+        Cron task has been started <?php echo $counter+"" ?> times
+      </h2>
+      <h2>
         <span style="display:block;"><span class="one-liner">Deploying your own PHP/cron app on Scalingo</span> is as easy as pie:</span>
         <a class="btn" href="https://my.scalingo.com/deploy?source=https://github.com/Scalingo/sample-php-cron">Just click this button!</a>
         <span style="display:block;">It will be up in less than 2 minutes!</span>
