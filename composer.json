@@ -1,7 +1,7 @@
 {
     "name": "scalingo/sample-php-cron",
     "require": {
-        "cron/cron": "^1.0",
+        "cron/cron": "^1.8.0",
         "ext-redis": "^3.1"
     },
     "authors": [
