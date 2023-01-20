@@ -1,6 +1,7 @@
 {
     "name": "scalingo/sample-php-cron",
     "require": {
+        "php": "^8.1",
         "cron/cron": "^1.8.0",
         "ext-redis": "^3.1"
     },
@@ -9,12 +10,5 @@
             "name": "Léo Unbekandt",
             "email": "leo@scalingo.com"
         }
-    ],
-    "extra": {
-      "paas": {
-        "engines": {
-          "php": "7.2.3"
-        }
-      }
-    }
+    ]
 }
