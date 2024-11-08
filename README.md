@@ -2,7 +2,7 @@
 
 This application is a simple PHP application using the package `cron/cron` installed from Composer
 
-Application → https://sample-php-cron.scalingo.io/
+Application → https://php-cron.is-easy-on-scalingo.com
 
 ## Processes
 
